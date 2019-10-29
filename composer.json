@@ -1,0 +1,19 @@
+{
+    "name": "kerrig/url-normalizer",
+    "description": "Middleware to provide URL normalization",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kerri Cranwell",
+            "email": "kerri@imarc.com"
+        }
+    ],
+    "require": {
+        "psr/http-server-middleware": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Testing\\": "src/"
+        }
+    }
+}
